@@ -1,0 +1,223 @@
+/*Animations*/
+/*
+@keyframes rotation {
+    100% {
+        rotate: 360deg;
+    }
+}*/
+@keyframes rotation {
+    0% {}
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes background {
+    0% {
+        background-color: lightcyan;
+    }
+
+    33% {
+        background-color: lightpink;
+    }
+
+    66% {
+        background-color: lightyellow;
+    }
+
+    100% {
+        background-color: lightcyan;
+    }
+}
+
+/*all*/
+
+:root {
+    font-family: Raleway;
+    width: 960px;
+    margin: auto;
+}
+
+
+/*head*/
+
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+}
+
+
+/*body*/
+
+body {
+    animation-name: background;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/*header*/
+
+
+header h1 {
+
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+}
+
+.titre {
+    display: inline-flex;
+    flex-flow: wrap;
+}
+
+div h5 {
+    display: initial;
+
+}
+
+/*recentré le logo et texte*/
+header .logo {
+    margin: auto;
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(66, 66, 66);
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1 1 auto;
+    text-align: center;
+    position: relative;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+
+}
+
+nav a:hover {
+    color: rgb(239, 117, 250);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.sous {
+    display: none;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    opacity: 0.9;
+
+}
+
+nav>ul li:hover .sous {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.sous li {
+    flex: 1 1 auto;
+    text-align: left;
+}
+
+.sous a {
+
+    border-bottom: none;
+    color: rgb(209, 0, 209);
+    font-size: 20px;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.sous a:hover {
+    border-bottom: none;
+    background-color: RGBa(200, 200, 200, 0.1);
+    font-size: 12px;
+}
+
+.deroulant>a::after {
+    content: " ▼";
+    font-size: 12px;
+}
+
+article {
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    text-align: justify;
+
+}
+
+img article {
+    max-width: 25%;
+}
+
+.L1::first-letter {
+    font-size: 175%;
+    color: hotpink;
+    font-weight: bolder;
+}
+
+/*page1*/
+
+aside {
+    padding: 5px;
+    background-color: hotpink;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 20px;
+    float: left;
+    border-radius: 25px;
+}
+
+aside>p {
+    text-align: center;
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+    font-style: italic;
+}
+
+table {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+/*footer*/
+
+footer .credit {
+    color: rgb(59, 59, 59);
+    font-size: 6px;
+}
