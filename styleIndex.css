@@ -227,7 +227,7 @@ aside>p {
 
 .sousItem {
     margin-left: 1rem;
-    flex: 1 0 240px;
+    flex: 1 0 320px;
     scroll-snap-align: start;
 }
 
