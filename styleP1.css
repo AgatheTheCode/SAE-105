@@ -104,7 +104,7 @@ nav ul li {
 nav a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
 
@@ -164,7 +164,7 @@ article {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 25px;
     text-align: justify;
 

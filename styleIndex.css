@@ -107,7 +107,7 @@ nav ul li {
 nav a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
     border-bottom: 2px solid transparent;
     padding: 10px 0px;
 
@@ -115,7 +115,7 @@ nav a {
 
 nav a:hover {
     color: rgb(239, 117, 250);
-    border-bottom: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid whitesmoke(255, 255, 255);
 }
 
 .sous {
@@ -164,7 +164,7 @@ nav>ul li:hover .sous {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 25px;
     text-align: justify;
 
@@ -206,14 +206,14 @@ aside>p {
 
 .carrouselMain div{
     display: flex;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 25px;
     width: fit-content;
     height: fit-content;
 }
 
 .carrouselMain h3{
-    
+    /*garder au cas ou*/
 }
 
 .items {
