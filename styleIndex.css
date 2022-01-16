@@ -208,13 +208,12 @@ aside>p {
     display: flex;
     background-color: whitesmoke;
     border-radius: 25px;
-    width: fit-content;
-    height: fit-content;
+
 }
 
-.carrouselMain h3{
-    /*garder au cas ou*/
-}
+/*.carrouselMain h3{
+    garder au cas ou
+}*/
 
 .items {
     display: flex;
