@@ -81,7 +81,7 @@ div h5 {
 header .logo {
     margin: auto;
     animation-name: rotation;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
@@ -204,16 +204,16 @@ aside>p {
 
 }*/
 
-.carrouselMain div{
+.carrouselMain div {
     display: flex;
     background-color: whitesmoke;
     border-radius: 25px;
 
 }
 
-/*.carrouselMain h3{
-    garder au cas ou
-}*/
+.carrouselMain div{
+    background: linear-gradient(#e66465, #9198e5);
+}
 
 .items {
     display: flex;
@@ -230,6 +230,35 @@ aside>p {
     flex: 1 0 320px;
     scroll-snap-align: start;
 }
+
+.infosup{
+    width: 150px;
+    border-radius: 25px;
+    margin: 5px;
+    font-style: italic;
+}
+
+.infosup p {
+
+    visibility: hidden;
+    display: flex;
+
+}
+
+.sousItem img:hover~.infosup {
+    /*devrai montrer infosup lors du hover sur le drapeau*/
+
+    visibility: visible;
+
+}
+
+.sousItem img:hover~.infosup p {
+    /*devrai montrer infosup lors du hover sur le drapeau*/
+
+    visibility: visible;
+    background-color: whitesmoke;
+}
+
 
 /*footer*/
 
