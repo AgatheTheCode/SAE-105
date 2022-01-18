@@ -68,12 +68,13 @@ header h1 {
 }
 
 .titre {
-    display: inline-flex;
+    display: flex;
     flex-flow: wrap;
 }
 
-div h5 {
-    display: initial;
+.titre h5{
+    flex-direction: row;
+    
 
 }
 
