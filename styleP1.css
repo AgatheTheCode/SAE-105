@@ -55,32 +55,43 @@ body {
 /*header*/
 
 
-header h1 {
-
-    text-align: center;
-    font-weight: bold;
+header{
     display: flex;
-    display: inline-flexbox;
-    flex-wrap: wrap;
-}
-
-.titre {
-    display: inline-flex;
     flex-flow: wrap;
 }
 
-div h5 {
-    display: initial;
-
+.titre > div{
+    display: flex;
+    margin: auto;
 }
 
 /*recentré le logo et texte*/
 header .logo {
     margin: auto;
     animation-name: rotation;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
+    flex-flow: row;
 }
+
+header h1 {
+    margin: 15px;
+    text-align: center;
+    font-weight: bold;
+    flex-flow: row;
+}
+
+.titre {
+    flex-flow: wrap;
+}
+
+.titre h5{
+    flex-direction: column;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
 
 nav {
     width: 100%;
@@ -112,7 +123,7 @@ nav a {
 
 nav a:hover {
     color: rgb(239, 117, 250);
-    border-bottom: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid whitesmoke(255, 255, 255);
 }
 
 .sous {
@@ -154,6 +165,7 @@ nav>ul li:hover .sous {
     content: " ▼";
     font-size: 12px;
 }
+
 
 .P1 {
     color: grey;
