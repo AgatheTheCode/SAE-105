@@ -76,7 +76,6 @@ header .logo {
     flex-flow: row;
 }
 
-
 header h1 {
     margin: 15px;
     text-align: center;
@@ -90,7 +89,9 @@ header h1 {
 
 .titre h5{
     flex-direction: column;
-    margin: 0px, 25px, 25px, 25px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
 }
 
 
