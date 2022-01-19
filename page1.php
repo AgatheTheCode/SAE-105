@@ -4,7 +4,7 @@
 include('include/twig.php');
 $twig = init_twig();
 
-include('include/dataCat1.php');
+include('include/datacat1.php');
 
 // Lancement du moteur Twig :
 // $twig->render($modele-de-page, $tableau-de-variables)
@@ -15,6 +15,5 @@ include('include/dataCat1.php');
 // Chaque ligne indique 'nom-variable-twig' => valeur-variable-twig
 echo $twig->render('cat1.twig',[
 
-    'imageSappho', 'flaglesbienne', 'corpsLesbienne', 'asideLesbienne', 'titreLesbienne' => $Lesbienne
+    'lesbienne' => $lesbienne
 ]);
-?>
