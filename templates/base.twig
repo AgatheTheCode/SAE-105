@@ -14,16 +14,51 @@
 
 <body>
 	<header>
+		<div class="titre">
+			<div>
+				<img class="logo" src="logos/LOGOsmallest.png" alt="logo cercle arc en ciel">
+				<h1> LGBT - Histoire et Luttes </h1>
+			</div>
+			<h5>Je sais pas quoi mettre ici</h5>
+		</div>
 		<nav>
-			<!-- Menu présent dans toutes les pages héritant (extends) de ce modèle -->
-			<a href="page2-accueil.php">Accueil</a> -
-				<a href="page1-independante.php">Page Indépendante</a> -
-				<a href="page3-livre1.php">Hypérion</a> -
-				<a href="page4-livre2.php">Les Misérables</a> -
-				<a href="page5-tableaux.php">Tableaux</a> -
-				<a href="page6-editeurs.php">Editeurs</a> -
-				<a href="page0-php-sans-twig.php">Sans TWIG</a>
+			<ul>
+				<li><a href="index.html">Menu</a></li>
+				<li class="menu-deroulant_cat1">
+					<a href="index.html">LGBTQIA+</a>
+					<ul class="sous">
+						<li><a href="page1.html">L</a></li>
+						<li><a href="page2.html">G</a></li>
+						<li><a href="page3.html">B</a></li>
+						<li><a href="page4.html">T</a></li>
+						<li><a href="page5.html">QIA+</a></li>
+					</ul>
+				</li>
+				<li class="menu-deroulant_cat2">
+					<a href="#">Histoire</a>
+					<ul class="sous">
+						<li><a href="page6.html">Antiquité</a></li>
+						<li><a href="page7.html">Moyen-âge</a></li>
+						<li><a href="page8.html">Renaissance</a></li>
+						<li><a href="page9.html">Temps Modernes</a></li>
+						<li><a href="page10.html">Contenporain</a></li>
+					</ul>
+				</li>
+				<li class="menu-deroulant_cat3">
+					<a href="#">Luttes</a>
+					<ul class="sous">
+						<li><a href="page11.html">Luttes</a></li>
+						<li><a href="page12.html">Droits en Europe</a></li>
+						<li><a href="page13.html">Droits dans le monde</a></li>
+						<li><a href="page14.html">Inégalités</a></li>
+						<li><a href="page15.html">Associations</a></li>
+					</ul>
+				</li>
+				<li><a href="bibliographie.html">Bibliographie & Sources</a></li>
+				<li><a href="contact.html">Contactez-nous</a></li>
+			</ul>
 		</nav>
+
 	</header>
 	<main>
 		{# Ceci est un commentaire en TWIG #}
