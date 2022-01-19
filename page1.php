@@ -13,13 +13,8 @@ include('include/dataCat1.php');
 //
 // Le second paramètre est un tableau contenant les variables envoyées au modèle Twig
 // Chaque ligne indique 'nom-variable-twig' => valeur-variable-twig
-echo $twig->render('cat1.twig'[
+echo $twig->render('cat1.twig',[
 
-    ['Lesbiennes' => $titre]
-    ['Lesbiennes' => $faitAside]
-    ['Lesbienne' => $corps]
-    ['lesbienne' => $flag]
-    ['Sappho'=>$image]
-
+    'imageSappho', 'flaglesbienne', 'corpsLesbienne', 'asideLesbienne', 'titreLesbienne' => $Lesbienne
 ]);
 ?>
