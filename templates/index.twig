@@ -3,7 +3,7 @@
 {# Ce modèle TWIG étend le modèle 'base.twig' : il contient tous les éléments fixes
    et un bloc main dont le contenu est spécialisé pour afficher un livre #}
    {% block css %}
-   <link rel="stylesheet" href="styleP1.css">
+   <link rel="stylesheet" href="styleindex.css">
    {% endblock %}
 {% block main %}
 
@@ -29,66 +29,65 @@
                     <ul class="items">
                         <li class=sousItem>
                             <div>
-                                <img src="images/Lflag.png" alt="Lesbian pride flag">
+                                <img src={{index.lflag}} alt="Lesbian pride flag">
                                 <div class="infosup">
-                                    <p> Le drapeau des lesbiennes </p>
+                                    <p> {{index.infol}} </p>
                                 </div>
                             </div>
                         </li>
                         <li class=sousItem>
                             <div>
-                                <img src="images/Gflag.png" alt="Gay pride Flag">
+                                <img src={{index.gflag}}  alt="Gay pride Flag">
                                 <div class="infosup">
-                                    <p> Le drapeau des gays </p>
+                                    <p> {{index.infog}} </p>
                                 </div>
                             </div>
                         </li>
                         <li class=sousItem>
                             <div>
-                                <img src="images/Bflag.png" alt="Bisexual pride Flag">
+                                <img src={{index.bflag}}  alt="Bisexual pride Flag">
                                 <div class="infosup">
-                                    <p> Le drapeau des bisexuelles </p>
+                                    <p> {{index.infob}} </p>
                                 </div>
                             </div>
                         </li>
                         <li class=sousItem>
                             <div>
-                                <img src="images/Tflag.png" alt="Transgender pride Flag">
+                                <img src={{index.tflag}}  alt="Transgender pride Flag">
                                 <div class="infosup">
-                                    <p> Le drapeau des personnes Transgenre </p>
+                                    <p> {{index.infot}} </p>
                                 </div>
                             </div>
                         </li>
                         <li class=sousItem>
                             <div>
-                                <img src="images/Iflag.png" alt="Intersexe pride Flag">
+                                <img src={{index.iflag}}  alt="Intersexe pride Flag">
                                 <div class="infosup">
-                                    <p> Le drapeau des personnes Intersexe </p>
+                                    <p> {{index.infoi}} </p>
                                 </div>
                             </div>
                         </li>
                         <li class=sousItem>
                             <div>
-                                <img src="images/OGPflag.png" alt="Rainbow original">
+                                <img src={{index.ogflag}}  alt="Rainbow original">
                                 <div class="infosup">
-                                    <p> Le premier drapeau de la Pride </p>
+                                    <p> {{index.infoog}} </p>
                                 </div>
                             </div>
                         </li>
                         <li class=sousItem>
                             <div>
-                                <img src="images/Pflag.png" alt="Rainbow moderne">
+                                <img src={{index.pflag}}  alt="Rainbow moderne">
                                 <div class="infosup">
-                                    <p> Le drapeau moderne de la pride </p>
+                                    <p> {{index.infop}} </p>
                                 </div>
                             </div>
                         </li>
                         <li class=sousItem>
                             <div>
-                                <img src="images/NPflag.png" alt="Rainbow revisité avec BLM et couleurs transgenre">
+                                <img src={{index.npflag}}  alt="Rainbow revisité avec BLM et couleurs transgenre">
                                 <div class="infosup">
-                                    <p> Le drapeau de la pride revisité avec Black Lives Matters & les couleurs Trans
-                                    </p>
+                                    <p> {{index.infonp}}</p>
                                 </div>
                             </div>
                         </li>

@@ -13,7 +13,7 @@ $index =[
 
     'lflag' => './images/Lflag.png',
 
-    'gflg' => './images/Gflag.png',
+    'gflag' => './images/Gflag.png',
 
     'bflag' => './images/Bflag.png',
 
@@ -26,5 +26,22 @@ $index =[
     'pflag' => './images/Pflag.png',
 
     'npflag' => './images/NPflag.png',
+
+    'infol' => 'Le drapeau des lesbiennes',
+    
+    'infog' => 'Le drapeau des gays',
+
+    'infob' => 'Le drapeau des bisexuelles',
+
+    'infot' => 'Le drapeau des personnes Transgenre ',
+
+    'infoi' => 'Le drapeau des personnes Intersexe',
+
+    'infoog' => 'Le premier drapeau de la Pride',
+
+    'infop' => 'Le drapeau moderne de la pride',
+
+    'infonp' => 'Le drapeau de la pride revisité avec Black Lives Matters & les couleurs Trans',
+
 
 ];
