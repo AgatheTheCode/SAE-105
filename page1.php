@@ -4,7 +4,7 @@
 include('include/twig.php');
 $twig = init_twig();
 
-include('include/dataindex.php');
+include('include/datacat1.php');
 
 // Lancement du moteur Twig :
 // $twig->render($modele-de-page, $tableau-de-variables)
@@ -13,8 +13,8 @@ include('include/dataindex.php');
 //
 // Le second paramètre est un tableau contenant les variables envoyées au modèle Twig
 // Chaque ligne indique 'nom-variable-twig' => valeur-variable-twig
-echo $twig->render('index.twig',[
+echo $twig->render('cat1.twig',[
 
-    'index' => $index
+    'lesbienne' => $lesbienne
     
 ]);

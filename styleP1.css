@@ -185,6 +185,7 @@ article {
 img article{
     margin: auto;
 }
+
 .L1::first-letter {
     font-size: 175%;
     color: hotpink;
