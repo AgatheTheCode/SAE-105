@@ -1,9 +1,9 @@
 <?php
 
 $lesbienne =[
-    'imagesappho' => 'src="images/sapphosmall.jpg" alt="Sappho la poétesse"',
+    'imagesappho' => './images/sapphosmall.jpg',
     
-    'flaglesbienne' => 'lolo',
+    'flaglesbienne' => './images/Lflag.png',
 
     'corpslesbienne' => 'La première lettre de l\’anagramme LGBT / LGBTQIA décrit le lesbianisme ou l\’attirance sexuel ou
     romantique entre deux femmes cisgenre ou transgenre. Les termes saphique et lesbien
