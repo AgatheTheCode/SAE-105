@@ -1,16 +1,19 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE php>
+<php lang="fr">
 <!--
-	Ce fichier HTML sert de base à tous les modèles en héritant.
+	Ce fichier php sert de base à tous les modèles en héritant.
 	Il contient les éléments qui seront présents sur toutes les pages du site.
-	En particulier les entêtes HTML, les header et footer et éventuellement le menu principal
+	En particulier les entêtes php, les header et footer et éventuellement le menu principal
 -->
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ titre }}</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="/styleIndex.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+	</style>
 </head>
 
 <body>
@@ -24,39 +27,39 @@
 		</div>
 		<nav>
 			<ul>
-				<li><a href="index.html">Menu</a></li>
+				<li><a href="index.php">Menu</a></li>
 				<li class="menu-deroulant_cat1">
-					<a href="index.html">LGBTQIA+</a>
+					<a href="index.php">LGBTQIA+</a>
 					<ul class="sous">
-						<li><a href="page1.html">L</a></li>
-						<li><a href="page2.html">G</a></li>
-						<li><a href="page3.html">B</a></li>
-						<li><a href="page4.html">T</a></li>
-						<li><a href="page5.html">QIA+</a></li>
+						<li><a href="page1.php">L</a></li>
+						<li><a href="page2.php">G</a></li>
+						<li><a href="page3.php">B</a></li>
+						<li><a href="page4.php">T</a></li>
+						<li><a href="page5.php">QIA+</a></li>
 					</ul>
 				</li>
 				<li class="menu-deroulant_cat2">
 					<a href="#">Histoire</a>
 					<ul class="sous">
-						<li><a href="page6.html">Antiquité</a></li>
-						<li><a href="page7.html">Moyen-âge</a></li>
-						<li><a href="page8.html">Renaissance</a></li>
-						<li><a href="page9.html">Temps Modernes</a></li>
-						<li><a href="page10.html">Contenporain</a></li>
+						<li><a href="page6.php">Antiquité</a></li>
+						<li><a href="page7.php">Moyen-âge</a></li>
+						<li><a href="page8.php">Renaissance</a></li>
+						<li><a href="page9.php">Temps Modernes</a></li>
+						<li><a href="page10.php">Contenporain</a></li>
 					</ul>
 				</li>
 				<li class="menu-deroulant_cat3">
 					<a href="#">Luttes</a>
 					<ul class="sous">
-						<li><a href="page11.html">Luttes</a></li>
-						<li><a href="page12.html">Droits en Europe</a></li>
-						<li><a href="page13.html">Droits dans le monde</a></li>
-						<li><a href="page14.html">Inégalités</a></li>
-						<li><a href="page15.html">Associations</a></li>
+						<li><a href="page11.php">Luttes</a></li>
+						<li><a href="page12.php">Droits en Europe</a></li>
+						<li><a href="page13.php">Droits dans le monde</a></li>
+						<li><a href="page14.php">Inégalités</a></li>
+						<li><a href="page15.php">Associations</a></li>
 					</ul>
 				</li>
-				<li><a href="bibliographie.html">Bibliographie & Sources</a></li>
-				<li><a href="contact.html">Contactez-nous</a></li>
+				<li><a href="bibliographie.php">Bibliographie & Sources</a></li>
+				<li><a href="contact.php">Contactez-nous</a></li>
 			</ul>
 		</nav>
 
@@ -80,4 +83,4 @@
 	</footer>
 </body>
 
-</html>
+</php>

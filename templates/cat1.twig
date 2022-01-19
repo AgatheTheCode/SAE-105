@@ -1,0 +1,21 @@
+{% extends "base.twig" %}
+
+{# Ce modèle TWIG étend le modèle 'base.twig' : il contient tous les éléments fixes
+   et un bloc main dont le contenu est spécialisé pour afficher un livre #}
+{% block main %}
+<main>
+    <section>
+        <aside>
+            <p>Fun Fact: {{faitAside.Lesbienne}}</p>
+        </aside>
+        <article>
+            <h3 class="L1">{{titre.lesbienne}}</h3>
+            <img {{flag.Lesb}}">
+            <p>
+                {{Corps.Lesbienne}}
+            </p>
+            <img {{image.Sappho}}>
+        </article>
+    </section>
+</main>
+{% endblock main %}

@@ -1,18 +1,171 @@
-<?php
+<!DOCTYPE php>
+<php lang="fr">
 
-// Initialise Twig
-include('include/twig.php');
-$twig = init_twig();
+    <head>
+        <title> Index </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" media="screen" href="styleIndex.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+        </style>
+    </head>
 
-include('include/dataIndex.php');
+    <body>
+        <header>
+            <div class="titre">
+                <div>
+                    <img class="logo" src="logos/LOGOsmallest.png" alt="logo cercle arc en ciel">
+                    <h1> LGBT - Histoire et Luttes </h1>
+                </div>
+                <h5>Je sais pas quoi mettre ici</h5>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.php">Menu</a></li>
+                    <li class="menu-deroulant_cat1">
+                        <a href="index.php">LGBTQIA+</a>
+                        <ul class="sous">
+                            <li><a href="page1.php">L</a></li>
+                            <li><a href="page2.php">G</a></li>
+                            <li><a href="page3.php">B</a></li>
+                            <li><a href="page4.php">T</a></li>
+                            <li><a href="page5.php">QIA+</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-deroulant_cat2">
+                        <a href="#">Histoire</a>
+                        <ul class="sous">
+                            <li><a href="page6.php">Antiquité</a></li>
+                            <li><a href="page7.php">Moyen-âge</a></li>
+                            <li><a href="page8.php">Renaissance</a></li>
+                            <li><a href="page9.php">Temps Modernes</a></li>
+                            <li><a href="page10.php">Contenporain</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-deroulant_cat3">
+                        <a href="#">Luttes</a>
+                        <ul class="sous">
+                            <li><a href="page11.php">Luttes</a></li>
+                            <li><a href="page12.php">Droits en Europe</a></li>
+                            <li><a href="page13.php">Droits dans le monde</a></li>
+                            <li><a href="page14.php">Inégalités</a></li>
+                            <li><a href="page15.php">Associations</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="bibliographie.php">Bibliographie & Sources</a></li>
+                    <li><a href="contact.php">Contactez-nous</a></li>
+                </ul>
+            </nav>
 
-// Lancement du moteur Twig :
-// $twig->render($modele-de-page, $tableau-de-variables)
-//
-// Le premier paramètre est le nom du modèle de page (le fichier Twig) à utiliser
-//
-// Le second paramètre est un tableau contenant les variables envoyées au modèle Twig
-// Chaque ligne indique 'nom-variable-twig' => valeur-variable-twig
-echo $twig->render('base.twig', [
+        </header>
 
-    ]);
+        <main>
+
+            <section class="S1">
+                <h2>LGBT : Histoire & Luttes</h2>
+                <h3>A propos</h3>
+                <aside>
+                    <p>Speaking english? Click me!</p>
+                    <!--Mettre liens plus tard vers vers eng-->
+                </aside>
+                <article class="articleI">
+                    <h4 class="presentation">Dans ce site vous découvrirez l'histiore du mouvement de LGBT ainsi que
+                        leurs
+                        luttes.</h4>
+                    <p> Ce site à pour objectifs : de présenter l'anagramme "LGBT / LGBTQIA", l’état des droits et des
+                        luttes LGBT+ dans le monde et leurs présence historique.
+                        Duis quis mattis libero. Vivamus molestie vehicula ultrices. Curabitur sodales nisl ut velit
+                        sollicitudin, nec placerat lacus tincidunt. Curabitur sit amet massa a velit ornare semper
+                        eget id nisl. Maecenas eget ex nibh. Vestibulum bibendum pellentesque dui pharetra iaculis.
+                        Nullam bibendum, est nec viverra accumsan,
+                        massa odio maximus urna, non commodo erat quam a orci. Suspendisse potenti. Duis faucibus massa
+                        faucibus neque viverra vestibulum.
+                        In sit amet mi quis elit tincidunt auctor ac a velit. Sed tempor ipsum eleifend sapien
+                        elementum, et condimentum sem pretium.
+                    </p>
+                </article>
+            </section>
+
+            <section class="carrouselMain">
+                <div>
+                    <h3> La collection de drapeau</h3>
+
+                    <ul class="items">
+                        <li class=sousItem>
+                            <div>
+                                <img src="images/Lflag.png" alt="Lesbian pride flag">
+                                <div class="infosup">
+                                    <p> Le drapeau des lesbiennes </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=sousItem>
+                            <div>
+                                <img src="images/Gflag.png" alt="Gay pride Flag">
+                                <div class="infosup">
+                                    <p> Le drapeau des gays </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=sousItem>
+                            <div>
+                                <img src="images/Bflag.png" alt="Bisexual pride Flag">
+                                <div class="infosup">
+                                    <p> Le drapeau des bisexuelles </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=sousItem>
+                            <div>
+                                <img src="images/Tflag.png" alt="Transgender pride Flag">
+                                <div class="infosup">
+                                    <p> Le drapeau des personnes Transgenre </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=sousItem>
+                            <div>
+                                <img src="images/Iflag.png" alt="Intersexe pride Flag">
+                                <div class="infosup">
+                                    <p> Le drapeau des personnes Intersexe </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=sousItem>
+                            <div>
+                                <img src="images/OGPflag.png" alt="Rainbow original">
+                                <div class="infosup">
+                                    <p> Le premier drapeau de la Pride </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=sousItem>
+                            <div>
+                                <img src="images/Pflag.png" alt="Rainbow moderne">
+                                <div class="infosup">
+                                    <p> Le drapeau moderne de la pride </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class=sousItem>
+                            <div>
+                                <img src="images/NPflag.png" alt="Rainbow revisité avec BLM et couleurs transgenre">
+                                <div class="infosup">
+                                    <p> Le drapeau de la pride revisité avec Black Lives Matters & les couleurs Trans
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </section>
+        </main>
+        <footer>
+
+            <p class="credits"> @joseph Dufour ~ 2022 </p>
+            <p class="Plan du site"> Plan du site tmtc </p>
+
+        </footer>
+    </body>
