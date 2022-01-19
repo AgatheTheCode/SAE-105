@@ -5,6 +5,7 @@
 	Il contient les éléments qui seront présents sur toutes les pages du site.
 	En particulier les entêtes HTML, les header et footer et éventuellement le menu principal
 -->
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,13 +66,16 @@
 		{# La ligne ci-dessous définit un bloc TWIG avec un contenu par défault.
 			On peut spécialiser dans les modèles fils en remplaçant le contenu par un autre #}
 		{% block main %}
-		<h1>Modèle de page basique avec un bloc main</h1>
-		<p>{{ message }}</p>
 		{% endblock %}
 	</main>
 	<footer>
 		{% block footer %}
-		<p>Pied de page</p>
+		<footer>
+
+			<p class="credits"> @joseph Dufour ~ 2022 </p>
+			<p class="Plan du site"> Plan du site tmtc </p>
+
+		</footer>
 		{% endblock footer %}
 	</footer>
 </body>

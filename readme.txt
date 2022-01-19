@@ -1,4 +1,4 @@
-HisSujet traité :
+Sujet traité :
     - LGBT  - Historique
 
 Pages :
