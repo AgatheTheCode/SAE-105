@@ -22,21 +22,128 @@ if ($result->num_rows > 0) {
 
 
 
-$lesbienne =[
+$lesbienne=[
 
+    'altflag' => 'Lesbian pride flag',
     'title' => 'L',
 
-    'imagesappho' => './images/sapphosmall.jpg',
+    'imagepers' => './images/sapphosmall.jpg',
     
-    'flaglesbienne' => './images/Lflag.png',
+    'flag' => './images/Lflag.png',
 
-    'corpslesbienne' => 'La première lettre de l\’anagramme LGBT / LGBTQIA décrit le lesbianisme ou l\’attirance sexuel ou
-    romantique entre deux femmes cisgenre ou transgenre. Les termes saphique et lesbien
-    viennent de la poétesse antique Sappho qui vivait entre le IIVème et IVème siècle av.J.C sur
-    l\’île de Lesbos et à décrit son attirance pour les femmes.',
+    'corps' => 'La première lettre de l\’anagramme LGBT / LGBTQIA décrit le lesbianisme ou l\’attirance sexuel ou
+            romantique entre deux femmes cisgenre ou transgenre. Les termes saphique et lesbien
+            viennent de la poétesse antique Sappho qui vivait entre le IIVème et IVème siècle av.J.C sur
+            l\’île de Lesbos et à décrit son attirance pour les femmes.',
 
-    'asidelesbienne' => 'Le L de lesbien est au début de l\'anagramme en hommage à la contribution des lesbiennes
-    lors de l\'épidémie de SIDA',
+    'aside' => 'Le L de lesbien est au début de l\'anagramme en hommage à la contribution des lesbiennes
+             lors de l\'épidémie de SIDA',
 
-    'titrelesbienne' => 'L comme Lesbiennes'
+    'titre' => 'L comme Lesbiennes',
+
+    'figure' =>'',
+     
+    'capt' => '',
+
+  ];
+
+$gay =[
+
+
+  'altflag' => 'Gay Pride Flag',
+
+  'title' => 'G',
+
+  'imagepers' => './images/at.jpg',
+  
+  'flag' => 'images/Gflag.png',
+
+  'corps' => 'Les Gays sont gay, même très gay',
+
+  'aside' => 'Mon frêre et gay mdr',
+
+  'titre' => 'G comme Gay',
+  
+  'figure' =>'',
+     
+  'capt' => '',
 ];
+
+$bi =[
+
+
+  'altflag' => 'Lesbian pride flag',
+  'title' => 'L',
+
+  'imagepers' => './images/sapphosmall.jpg',
+  
+  'flag' => './images/Lflag.png',
+
+  'corps' => 'La première lettre de l\’anagramme LGBT / LGBTQIA décrit le lesbianisme ou l\’attirance sexuel ou
+  romantique entre deux femmes cisgenre ou transgenre. Les termes saphique et lesbien
+  viennent de la poétesse antique Sappho qui vivait entre le IIVème et IVème siècle av.J.C sur
+  l\’île de Lesbos et à décrit son attirance pour les femmes.',
+
+  'aside' => 'Le L de lesbien est au début de l\'anagramme en hommage à la contribution des lesbiennes
+  lors de l\'épidémie de SIDA',
+
+  'titre' => 'L comme Lesbiennes',
+
+  
+  'figure' =>'',
+     
+  'capt' => '',
+];
+
+$trans =[
+
+
+  'altflag' => 'Lesbian pride flag',
+  'title' => 'L',
+
+  'imagepers' => './images/sapphosmall.jpg',
+  
+  'flag' => './images/Lflag.png',
+
+  'corps' => 'La première lettre de l\’anagramme LGBT / LGBTQIA décrit le lesbianisme ou l\’attirance sexuel ou
+  romantique entre deux femmes cisgenre ou transgenre. Les termes saphique et lesbien
+  viennent de la poétesse antique Sappho qui vivait entre le IIVème et IVème siècle av.J.C sur
+  l\’île de Lesbos et à décrit son attirance pour les femmes.',
+
+  'aside' => 'Le L de lesbien est au début de l\'anagramme en hommage à la contribution des lesbiennes
+  lors de l\'épidémie de SIDA',
+
+  'titre' => 'L comme Lesbiennes',
+
+  
+  'figure' =>'',
+     
+  'capt' => '',
+];
+
+$qia = [
+
+  'altflag' => 'Lesbian pride flag',
+  'title' => 'L',
+
+  'imagepers' => './images/sapphosmall.jpg',
+  
+  'flag' => './images/Lflag.png',
+
+  'corps' => 'La première lettre de l\’anagramme LGBT / LGBTQIA décrit le lesbianisme ou l\’attirance sexuel ou
+  romantique entre deux femmes cisgenre ou transgenre. Les termes saphique et lesbien
+  viennent de la poétesse antique Sappho qui vivait entre le IIVème et IVème siècle av.J.C sur
+  l\’île de Lesbos et à décrit son attirance pour les femmes.',
+
+  'aside' => 'Le L de lesbien est au début de l\'anagramme en hommage à la contribution des lesbiennes
+  lors de l\'épidémie de SIDA',
+
+  'titre' => 'L comme Lesbiennes',
+
+  
+  'figure' =>'',
+     
+  'capt' => '',
+
+];
+?>

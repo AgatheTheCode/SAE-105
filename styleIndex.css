@@ -64,7 +64,7 @@ header{
 
 .titre > div{
     display: flex;
-    margin: auto;
+
 }
 
 /*recentré le logo et texte*/
@@ -87,12 +87,12 @@ header h1 {
     flex-flow: wrap;
 }
 
-.titre h5{
+/*.titre h5{
     flex-direction: column;
     margin: auto;
     padding: auto;
     text-align: center;
-}
+}  Titre inutile */
 
 
 nav {
@@ -168,17 +168,6 @@ nav>ul li:hover .sous {
     font-size: 12px;
 }
 
-.articleI {
-    margin: 20px;
-    padding: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: whitesmoke;
-    border-radius: 25px;
-    text-align: justify;
-
-}
 
 
 aside {

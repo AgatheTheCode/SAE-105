@@ -5,24 +5,15 @@
 	Il contient les éléments qui seront présents sur toutes les pages du site.
 	En particulier les entêtes php, les header et footer et éventuellement le menu principal
 -->
-{% block checkphp %}
-if (is_page( 'L' ) ):
-  $lesbienne == $lesbienne;
-endif;
-{% endblock %}
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ titre }}</title>
 	<link rel="stylesheet" href="/base.css">
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-	</style>
+	<style> @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); </style>
 	{% block css %}
 	{% endblock css %}
-
-
 </head>
 
 <body>
@@ -32,7 +23,7 @@ endif;
 				<img class="logo" src="logos/LOGOsmallest.png" alt="logo cercle arc en ciel">
 				<h1> LGBT - Histoire et Luttes </h1>
 			</div>
-			<h5>totally cis</h5>
+
 		</div>
 		<nav role ="naviagation">
 			<ul>
@@ -74,7 +65,7 @@ endif;
 
 	</header>
 		{% block main %}
-		{% endblock %}
+		{% endblock main %}
 
 	<footer role = "footer">
 
