@@ -6,6 +6,17 @@
     }
 }*/
 /*autre methode*/
+.button:hover {background-color: #c4c4c4}
+
+.button:active {
+  background-color: #808080;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button:active~body {
+    animation-duration: 1000000s;
+
+  }
 @keyframes rotation {
     0% {}
 
