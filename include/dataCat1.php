@@ -1,7 +1,7 @@
 <?php
 
 
-//connection à la bdd pour rechercher les infos 
+/*connection à la bdd pour rechercher les infos 
 $mysqli = new mysqli("localhost","root","admin","site_lgbt");
 
 // Check connection
@@ -18,11 +18,14 @@ if ($result->num_rows > 0) {
     }
   } else {
     echo "0 results";
-  }
+  }*/
 
 
 
 $lesbienne =[
+
+    'title' => 'L',
+
     'imagesappho' => './images/sapphosmall.jpg',
     
     'flaglesbienne' => './images/Lflag.png',

@@ -1,26 +1,31 @@
 {% extends "base.twig" %}
 
+{% block chechphp %}
+{% endblock %}
+
 {# Ce modèle TWIG étend le modèle 'base.twig' : il contient tous les éléments fixes
    et un bloc main dont le contenu est spécialisé pour afficher un livre #}
    {% block css %}
    <link rel="stylesheet" href="styleP1.css">
    {% endblock %}
 {% block main %}
-<main>
-    <section>
-        <aside>
+<main role ="main">
+    <section role = "section principale">
+        <aside role= "asideFait">
             <p>Fun Fact: {{ lesbienne.asidelesbienne }}</p>
         </aside>
-        <article>
+        <article role = "article1">
             <h3 class="L1">{{ lesbienne.titrelesbienne }}</h3>
 
-            <img class="Lflag" src={{lesbienne.flaglesbienne}}
-                    alt="drapeau lesbien, 5 bandes de couleurs symétrique rose, orange et blanc ">
+                <img class="Lflag" src={{lesbienne.flaglesbienne}}
+                alt="drapeau lesbien, 5 bandes de couleurs symétrique rose, orange et blanc ">
 
-            <p>
+            <p role = "corps">
                 {{ lesbienne.corpslesbienne }}
             </p>
-             <img src={{ lesbienne.imagesappho }} alt="Sappho la poétesse">
+            <figure role ="figure" "Sappho la poétesse">
+             <img src={{ lesbienne.imagesappho }} alt="">
+             <figcaption> Sappho la poétesse </figcaption> 
         </article>
     </section>
 </main>

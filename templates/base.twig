@@ -5,6 +5,11 @@
 	Il contient les éléments qui seront présents sur toutes les pages du site.
 	En particulier les entêtes php, les header et footer et éventuellement le menu principal
 -->
+{% block checkphp %}
+if (is_page( 'L' ) ):
+  $lesbienne == $lesbienne;
+endif;
+{% endblock %}
 
 <head>
 	<meta charset="UTF-8">
@@ -21,15 +26,15 @@
 </head>
 
 <body>
-	<header>
+	<header role ="banner">
 		<div class="titre">
 			<div>
 				<img class="logo" src="logos/LOGOsmallest.png" alt="logo cercle arc en ciel">
 				<h1> LGBT - Histoire et Luttes </h1>
 			</div>
-			<h5>Je sais pas quoi mettre ici</h5>
+			<h5>totally cis</h5>
 		</div>
-		<nav>
+		<nav role ="naviagation">
 			<ul>
 				<li><a href="index.php">Menu</a></li>
 				<li class="menu-deroulant_cat1">
@@ -71,13 +76,10 @@
 		{% block main %}
 		{% endblock %}
 
-	<footer>
-		<footer>
+	<footer role = "footer">
 
-			<p class="credits"> @joseph Dufour ~ 2022 </p>
-			<p class="Plan du site"> Plan du site tmtc </p>
-
-		</footer>
+		<p class="credits"> @joseph Dufour ~ 2022 </p>
+		<p class="Plan du site"> Plan du site tmtc </p>
 
 	</footer>
 </body>

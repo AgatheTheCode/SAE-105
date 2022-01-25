@@ -1,7 +1,7 @@
 <?php
 
 $index =[
-    'titre' => 'LGBT : Histoire & Luttes',
+    'titre' => '$pagetitle',
     
     'apropos' => 'A propos',
 
