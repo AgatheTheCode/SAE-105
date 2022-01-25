@@ -27,14 +27,14 @@ $lesbienne=[
     'altflag' => 'Lesbian pride flag',
     'title' => 'L',
 
-    'imagepers' => './images/sapphosmall.jpg',
+    'imagepers' => './images/sapphospe.jpg',
     
     'flag' => './images/Lflag.png',
 
-    'corps' => 'La première lettre de l\’anagramme LGBT / LGBTQIA décrit le lesbianisme ou l\’attirance sexuel ou
-            romantique entre deux femmes cisgenre ou transgenre. Les termes saphique et lesbien
+    'corps' => 'La première lettre de l\'anagramme LGBT / LGBTQIA décrit le lesbianisme ou l\'attirance sexuel ou
+            romantique entre deux femmes cisgenre ou transgenre. Les termes "saphique" et "lesbien"
             viennent de la poétesse antique Sappho qui vivait entre le IIVème et IVème siècle av.J.C sur
-            l\’île de Lesbos et à décrit son attirance pour les femmes.',
+            l\'île de Lesbos et à décrit son attirance pour les femmes.',
 
     'aside' => 'Le L de lesbien est au début de l\'anagramme en hommage à la contribution des lesbiennes
              lors de l\'épidémie de SIDA',
@@ -54,13 +54,13 @@ $gay =[
 
   'title' => 'G',
 
-  'imagepers' => './images/at.jpg',
+  'imagepers' => './images/atsmall.jpg',
   
   'flag' => 'images/Gflag.png',
 
-  'corps' => 'Les Gays sont gay, même très gay',
+  'corps' => 'L\'hommosexualité masculine n\'est plus considéré comme une maladie mentale depuis le 17 mai 1990!',
 
-  'aside' => 'Mon frêre et gay mdr',
+  'aside' => ' 90% des jeunes LGBT pensent que l\environement est plus accueillant pour eux de nos jours',
 
   'titre' => 'G comme Gay',
   
@@ -72,22 +72,18 @@ $gay =[
 $bi =[
 
 
-  'altflag' => 'Lesbian pride flag',
-  'title' => 'L',
+  'altflag' => 'Bisexual pride flag',
+  'title' => 'B',
 
-  'imagepers' => './images/sapphosmall.jpg',
+  'imagepers' => './images/FMsmall.jpg',
   
-  'flag' => './images/Lflag.png',
+  'flag' => './images/Bflag.png',
 
-  'corps' => 'La première lettre de l\’anagramme LGBT / LGBTQIA décrit le lesbianisme ou l\’attirance sexuel ou
-  romantique entre deux femmes cisgenre ou transgenre. Les termes saphique et lesbien
-  viennent de la poétesse antique Sappho qui vivait entre le IIVème et IVème siècle av.J.C sur
-  l\’île de Lesbos et à décrit son attirance pour les femmes.',
+  'corps' => 'Bi lingual??',
 
-  'aside' => 'Le L de lesbien est au début de l\'anagramme en hommage à la contribution des lesbiennes
-  lors de l\'épidémie de SIDA',
+  'aside' => 'D\'aprés certaine étude 80% de la population serait à tendance bisecuelle',
 
-  'titre' => 'L comme Lesbiennes',
+  'titre' => 'B comme Bi',
 
   
   'figure' =>'',
@@ -98,22 +94,21 @@ $bi =[
 $trans =[
 
 
-  'altflag' => 'Lesbian pride flag',
-  'title' => 'L',
+  'altflag' => 'Transgender pride flag',
+  'title' => 'T',
 
-  'imagepers' => './images/sapphosmall.jpg',
+  'imagepers' => './images/MPJ.jpeg',
   
-  'flag' => './images/Lflag.png',
+  'flag' => './images/Tflag.png',
 
   'corps' => 'La première lettre de l\’anagramme LGBT / LGBTQIA décrit le lesbianisme ou l\’attirance sexuel ou
   romantique entre deux femmes cisgenre ou transgenre. Les termes saphique et lesbien
   viennent de la poétesse antique Sappho qui vivait entre le IIVème et IVème siècle av.J.C sur
   l\’île de Lesbos et à décrit son attirance pour les femmes.',
 
-  'aside' => 'Le L de lesbien est au début de l\'anagramme en hommage à la contribution des lesbiennes
-  lors de l\'épidémie de SIDA',
+  'aside' => 'Les émeutes de Stonewall qui ont donné naissance à la pride ont été déclanché par une femme transgenre de couleur',
 
-  'titre' => 'L comme Lesbiennes',
+  'titre' => 'T comme Transgenre',
 
   
   'figure' =>'',
@@ -123,12 +118,12 @@ $trans =[
 
 $qia = [
 
-  'altflag' => 'Lesbian pride flag',
-  'title' => 'L',
+  'altflag' => 'Orginam pride flag',
+  'title' => 'QIA+',
 
   'imagepers' => './images/sapphosmall.jpg',
   
-  'flag' => './images/Lflag.png',
+  'flag' => './images/OGPflag.png',
 
   'corps' => 'La première lettre de l\’anagramme LGBT / LGBTQIA décrit le lesbianisme ou l\’attirance sexuel ou
   romantique entre deux femmes cisgenre ou transgenre. Les termes saphique et lesbien
@@ -138,7 +133,7 @@ $qia = [
   'aside' => 'Le L de lesbien est au début de l\'anagramme en hommage à la contribution des lesbiennes
   lors de l\'épidémie de SIDA',
 
-  'titre' => 'L comme Lesbiennes',
+  'titre' => 'QIA comme?',
 
   
   'figure' =>'',

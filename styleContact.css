@@ -48,13 +48,15 @@
 }
 
 
-/*body*/
+/*body*//*
 body {
     animation-name: background;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+}*/
+::root{
+    background-image: image(./FM.jpg);
 }
-
 /*header*/
 
 header{

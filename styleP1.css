@@ -169,34 +169,50 @@ nav>ul li:hover .sous {
 .P1 {
     color: grey;
 }
+
+.Lflag{
+    width: fit-content;
+    height: auto;
+    margin: 25px;
+    align-self: center;
+    justify-content: center;
+}
 article {
     margin: 30px;
     padding: 30px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    background-color: whitesmoke;
     border-radius: 25px;
     text-align: justify;
     box-sizing: border-box;
+    background-color: #ffe0e06b;
 
 }
+.article1{
+    align-content: center;
+    justify-content: center;
+}
+
 
 figure{
-
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+    max-width:100%;
+    max-height:100%;
+    padding: 10px;
+    object-fit: contain;
     overflow: hidden;
 
 }
 
 img article{
 
+    max-width:100%;
+    max-height:100%;
     padding: 10px;
-    margin: 15px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
+    margin: auto;
+    object-fit: contain;
+
 
 }
 
@@ -211,7 +227,7 @@ aside {
     padding: 5px;
     background-color: hotpink;
     width: 200px;
-    padding: 5px;
+    padding: 25px;
     margin: 20px;
     float: left;
     border-radius: 25px;
