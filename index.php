@@ -10,5 +10,6 @@ include('include/dataindex.php');
 echo $twig->render('index.twig',[
 
     'index' => $index,
+    'carrousel' => $carrousel,
     
 ]);

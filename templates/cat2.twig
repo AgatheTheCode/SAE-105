@@ -1,38 +1,30 @@
 {% extends "base.twig" %}
+
+   {% block css %}
+   <link rel="stylesheet" href="styleP6.css">
+   {% endblock %}
+{% block main %}
+
     <main>
     <aside>
-        <p>Fun Fact: {{histoire.asidehistoire}}</p>
+        <p>Fun Fact: {{cat2.asidecat2}}</p>
     </aside>
     <section>
         <article>
-            <p class="presentation"{{histoire.presentation}}
-            </p>
-            <p>  {{histoire.pave}} </p>
+            <p class="presentation"{{cat2.presentation}}> </p>
+            <p>  {{cat2.pave}} </p>
         </article>
         <article>
-            <h3> {{histoire.titretab}} </h3>
+            <h3> {{cat2.titretab}} </h3>
             <table>
-                <thead>
+                {% for element in tableau %}
                     <tr>
-                        <th> Nom </th>
-                        <th> Travail pertinent </th>
+                        <th> {{element.nom}} </th>
+                        <th> {{element.travailpertinent}} </th>
                     </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Sappho</td>
-                        <td>Travail pertinent</td>
-                    </tr>
-                    <tr>
-                        <td>Nom</td>
-                        <td>Travail pertinent</td>
-                    </tr>
-                    <tr>
-                        <td>Nom</td>
-                        <td>Travail pertinent</td>
-                    </tr>
-                </tbody>
+                 {% endfor %}
             </table>
         </article>
     </section>
     </main>
+    {% endblock main %}

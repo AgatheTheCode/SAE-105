@@ -1,27 +1,5 @@
 <?php
 
-
-/*connection à la bdd pour rechercher les infos 
-$mysqli = new mysqli("localhost","root","admin","site_lgbt");
-
-// Check connection
-if ($mysqli -> connect_errno) {
-  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
-  exit();
-}
-$sql = "SELECT codepage, titre_page, aside_page FROM contenu_cat1";
-
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-      echo "id: " . $row["id"]. " - Name: " . $row["codepage"]. " " . $row["lastname"]. "<br>";
-    }
-  } else {
-    echo "0 results";
-  }*/
-
-
-
 $lesbienne=[
 
     'altflag' => 'Lesbian pride flag',
