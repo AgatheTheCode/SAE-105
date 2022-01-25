@@ -9,6 +9,7 @@ include('include/datacat1.php');
 
 echo $twig->render('cat1.twig',[
 
-    'cat1' => $lesbienne
+    'cat1' => $gay
     
-]); 
+    
+]);

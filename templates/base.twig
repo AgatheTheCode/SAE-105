@@ -11,25 +11,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ titre }}</title>
 	<link rel="stylesheet" href="/base.css">
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-	</style>
+	<style> @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); </style>
 	{% block css %}
 	{% endblock css %}
-
-
 </head>
 
 <body>
-	<header>
+	<header role ="banner">
 		<div class="titre">
 			<div>
 				<img class="logo" src="logos/LOGOsmallest.png" alt="logo cercle arc en ciel">
 				<h1> LGBT - Histoire et Luttes </h1>
 			</div>
-			<h5>Je sais pas quoi mettre ici</h5>
+
 		</div>
-		<nav>
+		<nav role ="naviagation">
 			<ul>
 				<li><a href="index.php">Menu</a></li>
 				<li class="menu-deroulant_cat1">
@@ -68,19 +64,13 @@
 		</nav>
 
 	</header>
-		{# Ceci est un commentaire en TWIG #}
-		{# La ligne ci-dessous définit un bloc TWIG avec un contenu par défault.
-			On peut spécialiser dans les modèles fils en remplaçant le contenu par un autre #}
 		{% block main %}
-		{% endblock %}
+		{% endblock main %}
 
-	<footer>
-		<footer>
+	<footer role = "footer">
 
-			<p class="credits"> @joseph Dufour ~ 2022 </p>
-			<p class="Plan du site"> Plan du site tmtc </p>
-
-		</footer>
+		<p class="credits"> @joseph Dufour ~ 2022 </p>
+		<p class="Plan du site"> Plan du site tmtc </p>
 
 	</footer>
 </body>

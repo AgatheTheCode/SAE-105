@@ -1,7 +1,7 @@
 <?php
 
 $index =[
-    'titre' => 'LGBT : Histoire & Luttes',
+    'titre' => 'Présentation : ',
     
     'apropos' => 'A propos',
 
@@ -9,7 +9,7 @@ $index =[
     leurs luttes',
 
     'presentation' => 'Ce site à pour objectifs : de présenter l\'anagramme "LGBT / LGBTQIA", l\’état des droits et des
-    luttes LGBT+ dans le monde et leurs présence historique.',
+    luttes LGBT+ dans le monde et leur présence historique.',
 
     'lflag' => './images/Lflag.png',
 
@@ -42,6 +42,5 @@ $index =[
     'infop' => 'Le drapeau moderne de la pride',
 
     'infonp' => 'Le drapeau de la pride revisité avec Black Lives Matters & les couleurs Trans',
-
 
 ];
