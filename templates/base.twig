@@ -29,39 +29,18 @@
 		</div>
 		<nav role ="naviagation">
 			<ul>
-				<li><a href="index.php">Menu</a></li>
+				<li><a href={{index.href}}>{{index.nom}}</a></li>
+				{% for element in nav %}
 				<li class="menu-deroulant_cat1">
-					<a href="index.php">LGBTQIA+</a>
+					<a href={{element.href2}}>{{element.nom2}}</a>
 					<ul class="sous">
-						<li><a href="page1.php">L</a></li>
-						<li><a href="page2.php">G</a></li>
-						<li><a href="page3.php">B</a></li>
-						<li><a href="page4.php">T</a></li>
-						<li><a href="page5.php">QIA+</a></li>
+							{% for item in element.sous_menu %}
+						<li><a href={{item.hrefsm}}>{{item.nomsm}}</a></li>
+						{% endfor %}
+							
 					</ul>
 				</li>
-				<li class="menu-deroulant_cat2">
-					<a href="#">Histoire</a>
-					<ul class="sous">
-						<li><a href="page6.php">Antiquité</a></li>
-						<li><a href="page7.php">Moyen-âge</a></li>
-						<li><a href="page8.php">Renaissance</a></li>
-						<li><a href="page9.php">Temps Modernes</a></li>
-						<li><a href="page10.php">Contenporain</a></li>
-					</ul>
-				</li>
-				<li class="menu-deroulant_cat3">
-					<a href="#">Luttes</a>
-					<ul class="sous">
-						<li><a href="page11.php">Luttes</a></li>
-						<li><a href="page12.php">Droits en Europe</a></li>
-						<li><a href="page13.php">Droits dans le monde</a></li>
-						<li><a href="page14.php">Inégalités</a></li>
-						<li><a href="page15.php">Associations</a></li>
-					</ul>
-				</li>
-				<li><a href="bibliographie.php">Bibliographie & Sources</a></li>
-				<li><a href="contact.php">Contactez-nous</a></li>
+				{% endfor %}
 			</ul>
 		</nav>
 

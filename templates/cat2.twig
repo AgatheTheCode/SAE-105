@@ -5,8 +5,8 @@
    {% endblock %}
 {% block main %}
 
-    <main>
-    <aside>
+    <main role = 'main'>
+    <aside role ='aside'>
         <p>Fun Fact: {{cat2.asidecat2}}</p>
     </aside>
     <section>
@@ -21,6 +21,7 @@
                     <tr>
                         <th> {{element.nom}} </th>
                         <th> {{element.travailpertinent}} </th>
+                        <th> {{element.date}} </th>
                     </tr>
                  {% endfor %}
             </table>

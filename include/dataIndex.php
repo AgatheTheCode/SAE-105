@@ -8,19 +8,69 @@ $index =[
     'titre2' => 'Dans ce site vous découvrirez l\'histiore du mouvement de LGBT ainsi que
     leurs luttes',
 
-    'presentation' => 'Ce site à pour objectifs : de présenter l\'anagramme "LGBT / LGBTQIA", l\’état des droits et des
+    'presentation' => 'Ce site à pour objectifs : de présenter l\'anagramme "LGBT / LGBTQIA", l\'état des droits et des
     luttes LGBT+ dans le monde et leur présence historique.',
+    
+    'href' =>'index.php', 
+    
+    'nom' => 'Menu',
 ];
 
-$carrousel =[
-    ['flag' => 'images/Lflag.png','alt'=> 'Drapeau des lesbiennes', 'infol' => 'Le drapeau des lesbiennes'],
-    ['flag' => 'images/Gflag.png','alt'=> 'Drapeau des gays', 'infol' => 'Le drapeau des lesbiennes'],
-    ['flag' => 'images/Bflag.png','alt'=> 'Drapeau des bi', 'infol' => 'Le drapeau des lesbiennes'],
-    ['flag' => 'images/Tflag.png','alt'=> 'Drapeau des transgenres', 'infol' => 'Le drapeau des lesbiennes'],
-    ['flag' => 'images/Iflag.png','alt'=> 'Drapeau des personnes intersexe', 'infol' => 'Le drapeau des lesbiennes'],
-    ['flag' => 'images/OGPflag.png','alt'=> 'Drapeau de la pride original', 'infol' => 'Le drapeau des lesbiennes'],
-    ['flag' => 'images/Pflag.png','alt'=> 'Drapeau de la pride actuel', 'infol' => 'Le drapeau des lesbiennes'],
-    ['flag' => 'images/NPflag.png','alt'=> 'Le drapeau de la pride revisité avec Black Lives Matters & les couleurs Trans', 'infol' => 'Le drapeau des lesbiennes'],
+$nav =[
+     //Href2 et nom2 correspondent à des pages intermédiaire qui ne sont pas utilisé ici mais devraient l'être si j'avais eu plus de temps
+    ['href2' => 'index.php', 'nom2' => 'LGBTQIA+', 'sous_menu' => [
+        ['hrefsm' => 'page1.php', 'nomsm' => 'L'],
+        ['hrefsm' => 'page2.php', 'nomsm' => 'G'],
+        ['hrefsm' => 'page3.php', 'nomsm' => 'B'],
+        ['hrefsm' => 'page4.php', 'nomsm' => 'T'],
+        ['hrefsm' => 'page5.php', 'nomsm' => 'QIA+'],
+    ] ],
+    ['href2' => 'index.php', 'nom2' => 'Histoire','sous_menu' =>[
+    
+        ['hrefsm' => 'page6.php', 'nomsm' => 'Antiquité'],
+        ['hrefsm' => 'page7.php', 'nomsm' => 'Moyen Age+'],
+        ['hrefsm' => 'page8.php', 'nomsm' => 'Renaissance'],
+        ['hrefsm' => 'page9.php', 'nomsm' => 'Temps Modernes'],
+        ['hrefsm' => 'page10.php', 'nomsm' => 'Contemporain'],
+    ] ],
+    ['href2' => 'index.php', 'nom2' => 'Luttes','sous_menu' =>[
 
-    //[image/alt/info]
+        ['hrefsm' => 'page11.php', 'nomsm' => 'Luttes'],
+        ['hrefsm' => 'page12.php', 'nomsm' => 'Droits en Europe'],
+        ['hrefsm' => 'page13.php', 'nomsm' => 'Droits dans le monde'],
+        ['hrefsm' => 'page14.php', 'nomsm' => 'Associations'],
+
+    ]],
+    ['href2' => 'biblio.php', 'nom2' => 'Bibliographie'],
+    ['href2' => 'contact.php', 'nom2' => 'Contactez-nous']
+];
+
+/*$sous_menu =[
+    ['hrefsm' => 'page1.php', 'nomsm' => 'L'],
+    ['hrefsm' => 'page2.php', 'nomsm' => 'G'],
+    ['hrefsm' => 'page3.php', 'nomsm' => 'B'],
+    ['hrefsm' => 'page4.php', 'nomsm' => 'T'],
+    ['hrefsm' => 'page5.php', 'nomsm' => 'QIA+'],
+    ['hrefsm' => 'page6.php', 'nomsm' => 'Antiquité'],
+    ['hrefsm' => 'page7.php', 'nomsm' => 'Moyen Age+'],
+    ['hrefsm' => 'page8.php', 'nomsm' => 'Renaissance'],
+    ['hrefsm' => 'page9.php', 'nomsm' => 'Temps Modernes'],
+    ['hrefsm' => 'page10.php', 'nomsm' => 'Contemporain'],
+    ['hrefsm' => 'page11.php', 'nomsm' => 'Luttes'],
+    ['hrefsm' => 'page12.php', 'nomsm' => 'Droits en Europe'],
+    ['hrefsm' => 'page13.php', 'nomsm' => 'Droits dans le monde'],
+    ['hrefsm' => 'page14.php', 'nomsm' => 'Associations'],
+    
+];*/
+
+$carrousel =[
+    ['flag' => './images/Lflag.png','alt'=> 'Drapeau des lesbiennes', 'infol' => 'Le drapeau des lesbiennes'],
+    ['flag' => './images/Gflag.png','alt'=> 'Drapeau des gays', 'infol' => 'Le drapeau des lesbiennes'],
+    ['flag' => './images/Bflag.png','alt'=> 'Drapeau des bi', 'infol' => 'Le drapeau des lesbiennes'],
+    ['flag' => './images/Tflag.png','alt'=> 'Drapeau des transgenres', 'infol' => 'Le drapeau des lesbiennes'],
+    ['flag' => './images/Iflag.png','alt'=> 'Drapeau des personnes intersexe', 'infol' => 'Le drapeau des lesbiennes'],
+    ['flag' => './images/OGPflag.png','alt'=> 'Drapeau de la pride original', 'infol' => 'Le drapeau des lesbiennes'],
+    ['flag' => './images/Pflag.png','alt'=> 'Drapeau de la pride actuel', 'infol' => 'Le drapeau des lesbiennes'],
+    ['flag' => './images/NPflag.png','alt'=> 'Le drapeau de la pride revisité avec Black Lives Matters & les couleurs Trans', 'infol' => 'Le drapeau des lesbiennes']
+
 ];

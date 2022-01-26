@@ -11,5 +11,6 @@ echo $twig->render('index.twig',[
 
     'index' => $index,
     'carrousel' => $carrousel,
+    'nav' => $nav,
     
 ]);
