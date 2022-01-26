@@ -7,6 +7,7 @@ $comment = [
 
 $commentloop =[
 
+    //début de filer pour test, a remplir via IF
     ['pseudo' => 'Anna Tablo', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn'],
     ['pseudo' => 'Anthony Kafé', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn'],
     ['pseudo' => 'Antoine Lecodex', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn'],
@@ -17,8 +18,6 @@ $commentloop =[
     ['pseudo' => 'Lou Bliée', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn'],
     ['pseudo' => 'Anna Tablo', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn'],
     ['pseudo' => 'Agathe Theblues', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn']
-
+    //fin de filer
 ]
-
-
 ?>
