@@ -3,6 +3,7 @@
 
    {% block css %}
    <link rel="stylesheet" href="styleindex.css">
+    <link rel="stylesheet" href="stylecontact.css">
    {% endblock %}
 {% block main %}
        <main role = 'main'>
@@ -18,9 +19,20 @@
                     <input type="text" id="mail" name="mail"><br>
                     <label for="obj">Objet:</label><br>
                     <input type="text" id="obj" name="obj"><br>
-                    <label for="msg">Votre message</label><br>
-                    <input type="text" id="msg" name="msg"><br>
+                    <p for="msg">Votre message</p><br>
+                    
+                    <textarea role ="Zone de texte"></textarea>
+
+                        <button class="btn" name="Valider" form="commentaire"> Envoyer</button>
+                        <button class="btn" name="Annuler" form="commentaire"> Annuler</button>
                 </form>
+            </div>
+            <div class="commentaires">
+                <h3> {{comment.titre}} </h3>
+                    {% for element in commentloop %}
+                    <h5>{{element.user}}</h5>
+                        <p>{{element.contenu}}</p>
+                        {% endfor %}
             </div>
         </article>
     </section>

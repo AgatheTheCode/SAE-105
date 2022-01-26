@@ -45,23 +45,6 @@ $nav =[
     ['href2' => 'contact.php', 'nom2' => 'Contactez-nous']
 ];
 
-/*$sous_menu =[
-    ['hrefsm' => 'page1.php', 'nomsm' => 'L'],
-    ['hrefsm' => 'page2.php', 'nomsm' => 'G'],
-    ['hrefsm' => 'page3.php', 'nomsm' => 'B'],
-    ['hrefsm' => 'page4.php', 'nomsm' => 'T'],
-    ['hrefsm' => 'page5.php', 'nomsm' => 'QIA+'],
-    ['hrefsm' => 'page6.php', 'nomsm' => 'Antiquité'],
-    ['hrefsm' => 'page7.php', 'nomsm' => 'Moyen Age+'],
-    ['hrefsm' => 'page8.php', 'nomsm' => 'Renaissance'],
-    ['hrefsm' => 'page9.php', 'nomsm' => 'Temps Modernes'],
-    ['hrefsm' => 'page10.php', 'nomsm' => 'Contemporain'],
-    ['hrefsm' => 'page11.php', 'nomsm' => 'Luttes'],
-    ['hrefsm' => 'page12.php', 'nomsm' => 'Droits en Europe'],
-    ['hrefsm' => 'page13.php', 'nomsm' => 'Droits dans le monde'],
-    ['hrefsm' => 'page14.php', 'nomsm' => 'Associations'],
-    
-];*/
 
 $carrousel =[
     ['flag' => './images/Lflag.png','alt'=> 'Drapeau des lesbiennes', 'infol' => 'Le drapeau des lesbiennes'],

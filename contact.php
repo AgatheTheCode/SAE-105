@@ -10,9 +10,10 @@ include('include/datacontact.php');
 
 echo $twig->render('contact.twig',[
 
-    'var' => $var, //a définir
     'index' => $index,
-    'nav' => $nav
+    'nav' => $nav,
+    'base' => $comment,
+    'commentaire' => $commentloop
     
     
 ]);
