@@ -12,8 +12,8 @@ echo $twig->render('contact.twig',[
 
     'index' => $index,
     'nav' => $nav,
-    'base' => $comment,
-    'commentaire' => $commentloop
+    'comment' => $comment,
+    'commentloop' => $commentloop
     
     
 ]);
