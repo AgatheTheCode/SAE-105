@@ -1,1 +1,21 @@
 {% extends "base.twig" %}
+
+   {% block css %}
+   <link rel="stylesheet" href="styleP6.css">
+   {% endblock %}
+
+{% block main %}
+<main role ='main'>
+        <aside role = 'aside Fun Fact'>
+            <p>Fun Fact: {{mettre.varible}}</p>
+        </aside>
+        <section role ='Section 1'>
+            {% for element in cat3 %}
+            <article role ='Artcle1'>
+                <p class="presentation"{{element.para1}}></p>
+                <p>{{element.para2}}</p>
+            </article>
+                {% endfor %}
+        </section>
+    </main>
+    {% endblock main %}

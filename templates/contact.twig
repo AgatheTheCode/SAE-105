@@ -1,0 +1,29 @@
+{% extends "base.twig" %}
+
+
+   {% block css %}
+   <link rel="stylesheet" href="styleindex.css">
+   {% endblock %}
+{% block main %}
+       <main role = 'main'>
+        <section role = 'section principale'>
+        <article role = 'article premier'>
+            <div class="form">
+                <form>
+                    <label for="nom">Votre Nom:</label><br>
+                    <input type="text" id="nom" name="nom"><br>
+                    <label for="prenom">Votre Prénom:</label><br>
+                    <input type="text" id="prenom" name="prenom"><br>
+                    <label for="mail">Adresse e-mail:</label><br>
+                    <input type="text" id="mail" name="mail"><br>
+                    <label for="obj">Objet:</label><br>
+                    <input type="text" id="obj" name="obj"><br>
+                    <label for="msg">Votre message</label><br>
+                    <input type="text" id="msg" name="msg"><br>
+                </form>
+            </div>
+        </article>
+    </section>
+    </main>
+
+{% endblock main %}

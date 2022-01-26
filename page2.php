@@ -6,10 +6,13 @@ $twig = init_twig();
 
 
 include('include/datacat1.php');
+include('include/dataindex.php');
 
 echo $twig->render('cat1.twig',[
 
-    'cat1' => $gay
+    'cat1' => $gay,
+    'index' => $index,
+    'nav' => $nav
     
     
 ]);

@@ -1,17 +1,15 @@
 <?php
 
-// Initialise Twig
 include('include/twig.php');
 $twig = init_twig();
 
-
-include('include/datacat1.php');
+include('include/datacat3.php');
 include('include/dataindex.php');
 
-echo $twig->render('cat1.twig',[
+echo $twig->render('cat3.twig',[
 
-    'cat1' => $lesbienne,
+    'cat3' => $cat3,
     'index' => $index,
     'nav' => $nav
     
-]); 
+]);
