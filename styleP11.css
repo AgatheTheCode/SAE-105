@@ -101,6 +101,11 @@ article {
 img article {
     max-width: 25%;
 }
+p{
+    margin: auto;
+    padding: 15px;
+}
+
 
 .L1::first-letter {
     font-size: 175%;

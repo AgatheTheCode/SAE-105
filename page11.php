@@ -10,6 +10,7 @@ echo $twig->render('cat3.twig',[
 
     'cat3' => $cat3,
     'index' => $index,
-    'nav' => $nav
+    'nav' => $nav,
+    'fact' => $fact
     
 ]);

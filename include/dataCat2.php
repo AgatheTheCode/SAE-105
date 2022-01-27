@@ -21,7 +21,7 @@ $moyenage =[
             'titretab' => 'Tableau des philosophes & textes LGBT du Moyen âge', 
     ];
 $renaissance =[
-    'asidehistoire' => 'Léonardo de Vinci était homosexuel',
+    'asidehistoire' => 'Léonardo de Vinci était gay!',
     'presentation' => 'La renaissance, période de contestation des doctrines catholiques. ',
     'pave' => 'La renaissance est témoins de la libération de meurs de part la laïcisation de la société.
     Mais le pouvoir juridique entre les mains de la monarchie (fin du droit canonique) ne changera rien pour
@@ -40,14 +40,18 @@ $tempsmodernes =[
     On notera tout de même que Allan Turing, le mathématicien qui à décripté les codes nazis était homosexuel. Il était contraint de prendre des castrateurs chimique et se suicidera en 1954 
     en ingérant des pépins de pommes riche en cyanure.',
 
-    'titretab' => 'Tableau des philosophe & textes LGBT des temps modernes',   
+    'titretab' => 'Tableau des philosophe & textes LGBT de 1939 à 1945',   
 ];
 $contemporain =[
     'asidehistoire' => 'Au moins 450 espéces animal ont des relations homosexuelles',
     'presentation' => 'Cette partie vous parlera du présent et de l\'avenir proche',
     'pave' => 'Depuis le début des années 2000 la représentation des LGBT est en constente augmentation. Cette augmentation est dû à plusieurs facteurs,
-    comme par exemple l\'accessibilité de ressources intelectuelles et la levé de tabou sur le corps et la sexualité dans l\'éducation. ',
-    'titretab' => 'Tableau des philosophe & textes LGBT contemporain',   
+    comme par exemple l\'accessibilité de ressources intelectuelles et la levé de tabou sur le corps et la sexualité dans l\'éducation. De plus un grands nombre
+    de personalité de tout milieu artistique évoque leurs rapport complexe à la sexualité et au genre permettant aux nouvelles générations de se questionnés.
+    Pour certains ce questionnement n\'est pas perçue de manière positive, alors que dans les faits ils ne sont que concience de soit et du monde qui nous entours.
+    "Qu\'est-ce que c\'est qu\'homme, femme, hétérosexuel, bi, gay, lesbienne?" sont de nouvelles questions qui méritent une réponse et notre attention. "Etre ou ne pas être?"
+    semble aujourd\'hui seulement la partie émergée de l\iceberg de notre existance.  ',
+    'titretab' => 'Tableau d\'artistes LGBT contemporain',   
 ];
 
 $tableauant =[
@@ -79,8 +83,9 @@ $tableautmp =[
     ];
     
 $tableaucmtp =[
-    ['nom' => 'Nom', 'travailpertinent' => 'Travail pertinent', 'date' => 'Date'],
-    ['nom' => 'Sappho', 'travailpertinent' => 'À Une Aimée','date' => '7ème siécle avant JC'],
-    ['nom' => 'Saphho', 'travailpertinent' => 'Confidences','date' => '7ème siécle avant JC'],
+    ['nom' => 'Nom', 'travailpertinent' => 'Domaine', 'date' => 'Date'],
+    ['nom' => 'Frida Khalo', 'travailpertinent' => 'Art plastiques','date' => '1907 - 1954'],
+    ['nom' => 'Eliot Page', 'travailpertinent' => 'Acteur','date' => '(vivant)'],
+    ['nom' => 'Sophie "SOPHIE" Xeon', 'travailpertinent' => 'Productrice de musique éléctronique','date' => '1986 - 2021'],
     
     ];

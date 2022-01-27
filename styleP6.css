@@ -122,6 +122,14 @@ aside>p {
     color: black;
     font-style: italic;
 }
+p{
+    margin: auto;
+    padding: 15px;
+}
+h3{
+    margin: auto;
+    padding: 15px;
+}
 
   
 table
