@@ -43,9 +43,10 @@ $tempsmodernes =[
     'titretab' => 'Tableau des philosophe & textes LGBT des temps modernes',   
 ];
 $contemporain =[
-    'asidehistoire' => 'ajouter un fun fact sur les lgbt',
-    'presentation' => 'Dans ce site vous découvrirez l\'histiore du mouvement de LGBT ainsi que leurs luttes.',
-    'pave' => 'Les plus ancienne histiores de personnes LGBT nous proviennent de l\'Antiquité.',
+    'asidehistoire' => 'Au moins 450 espéces animal ont des relations homosexuelles',
+    'presentation' => 'Cette partie vous parlera du présent et de l\'avenir proche',
+    'pave' => 'Depuis le début des années 2000 la représentation des LGBT est en constente augmentation. Cette augmentation est dû à plusieurs facteurs,
+    comme par exemple l\'accessibilité de ressources intelectuelles et la levé de tabou sur le corps et la sexualité dans l\'éducation. ',
     'titretab' => 'Tableau des philosophe & textes LGBT contemporain',   
 ];
 
