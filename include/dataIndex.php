@@ -30,7 +30,7 @@ $nav =[
         ['hrefsm' => 'page6.php', 'nomsm' => 'Antiquité'],
         ['hrefsm' => 'page7.php', 'nomsm' => 'Moyen Age+'],
         ['hrefsm' => 'page8.php', 'nomsm' => 'Renaissance'],
-        ['hrefsm' => 'page9.php', 'nomsm' => 'Temps Modernes'],
+        ['hrefsm' => 'page9.php', 'nomsm' => 'Guerres Mondiales'],
         ['hrefsm' => 'page10.php', 'nomsm' => 'Contemporain'],
     ] ],
     ['href2' => 'index.php', 'nom2' => 'Luttes','sous_menu' =>[

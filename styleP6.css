@@ -129,14 +129,20 @@ table
     margin: auto;
     border: 1px solid black;
     border-collapse: collapse;
+    padding: 10px;
 }
 th
 {
     border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    text-align: justify;
 }
 td
 {
     border: 1px solid black;
+    padding: 10px;
+
 }
 
 
