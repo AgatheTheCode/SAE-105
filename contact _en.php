@@ -5,7 +5,7 @@ include('include/twig.php');
 $twig = init_twig();
 
 
-include('include/dataIndex.php');
+include('include/dataindex.php');
 include('include/datacontact.php');
 
 echo $twig->render('contact.twig',[
