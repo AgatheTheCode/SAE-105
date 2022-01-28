@@ -8,7 +8,7 @@ include('include/dataindex.php');
 
 echo $twig->render('cat3.twig',[
 
-    'cat3' => $luttes,
+    'cat3' => $droiteu,
     'index' => $index,
     'nav' => $nav,
     

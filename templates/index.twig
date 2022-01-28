@@ -13,7 +13,7 @@
                 <h2>{{index.titre}}</h2>
                 <h3>{{index.apropos}}</h3>
                 <aside>
-                    <p>Speaking english? Click me!</p>
+                    <a href={{index.href_lang}}>{{index.aside}}</a>
                     <!--Mettre liens plus tard vers eng-->
                 </aside>
                 <article class="articleI">
@@ -24,7 +24,7 @@
 
 
             <section class="carrouselMain">
-                 <h3> La collection de drapeau</h3>
+                 <h3> {{index.titreflag}}</h3>
                 <div> 
                     <ul class="items">
                     {% for element in carrousel %}

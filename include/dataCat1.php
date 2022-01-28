@@ -127,19 +127,17 @@ $lesbienne_en=[
   
   'flag' => './images/Lflag.png',
 
-  'corps' => 'La première lettre de l\'anagramme LGBT / LGBTQIA décrit le lesbianisme ou l\'attirance sexuel ou
-          romantique entre deux femmes cisgenre ou transgenre. Les termes "saphique" et "lesbien"
-          viennent de la poétesse antique Sappho qui vivait entre le IIVème et IVème siècle av.J.C sur
-          l\'île de Lesbos et à décrit son attirance pour les femmes.',
+  'corps' => 'The first letter of LBGT stand for Lesbian. It\'s the romantic or
+          sexual attraction between two women cisgender or transgender. The terms "Sapphic" and "Lesbian" come from Sappho a philosopher who lived
+          between 3rd and 4th bc on Lesbos island. She decribed her own attraction toward women',
 
-  'aside' => 'Le L de lesbien est au début de l\'anagramme en hommage à la contribution des lesbiennes
-           lors de l\'épidémie de SIDA',
+  'aside' => 'If the L of Lesbian is first in LGBT it\'s because they helped a lot during the AIDS pandemic!',
 
-  'titre' => 'L comme Lesbiennes',
+  'titre' => 'L as Lesbian',
 
   'figure' =>'',
    
-  'capt' => 'Portrait de Sappho',
+  'capt' => 'Painting of Sappho',
 
 ];
 
