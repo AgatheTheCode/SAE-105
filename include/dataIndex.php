@@ -97,14 +97,14 @@ $carrousel =[
 
 $nav_en =[
      //Href2 et nom2 correspondent à des pages intermédiaire qui ne sont pas utilisé ici mais devraient l'être si j'avais eu plus de temps
-    ['href2' => 'index.php', 'nom2' => 'LGBTQIA+', 'sous_menu' => [
+    ['href2' => '#', 'nom2' => 'LGBTQIA+', 'sous_menu' => [
         ['hrefsm' => 'page_EN1.php', 'nomsm' => 'L'],
         ['hrefsm' => 'page_EN2.php', 'nomsm' => 'G'],
         ['hrefsm' => 'page_EN3.php', 'nomsm' => 'B'],
         ['hrefsm' => 'page_EN4.php', 'nomsm' => 'T'],
         ['hrefsm' => 'page_EN5.php', 'nomsm' => 'QIA+'],
     ] ],
-    ['href2' => 'index_en.php', 'nom2' => 'History','sous_menu' =>[
+    ['href2' => '#', 'nom2' => 'History','sous_menu' =>[
     
         ['hrefsm' => 'page_EN6.php', 'nomsm' => 'Antiquity'],
         ['hrefsm' => 'page_EN7.php', 'nomsm' => 'Middle Ages'],
@@ -112,9 +112,10 @@ $nav_en =[
         ['hrefsm' => 'page_EN9.php', 'nomsm' => 'World War I & II'],
         ['hrefsm' => 'page_EN10.php', 'nomsm' => 'Present day'],
     ] ],
-    ['href2' => 'index_en.php', 'nom2' => 'Luttes','sous_menu' =>[
+    ['href2' => '#', 'nom2' => 'Luttes','sous_menu' =>[
 
         ['hrefsm' => 'page_EN11.php', 'nomsm' => 'Fights'],
+        ['hrefsm' => 'page_EN15.php', 'nomsm' => 'Discriminations'],
         ['hrefsm' => 'page_EN12.php', 'nomsm' => 'Rights in Europe'],
         ['hrefsm' => 'page_EN13.php', 'nomsm' => 'Rights in the world'],
         ['hrefsm' => 'page_EN14.php', 'nomsm' => 'Associations'],
