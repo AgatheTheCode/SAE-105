@@ -8,16 +8,16 @@ $comment = [
 $commentloop =[
 
     //début de filer pour test, a remplir via IF
-    ['pseudo' => 'Anna Tablo', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn'],
-    ['pseudo' => 'Anthony Kafé', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn'],
-    ['pseudo' => 'Antoine Lecodex', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn'],
-    ['pseudo' => 'Thomas Reservia', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn'],
+    ['pseudo' => 'Anna Tablo', 'commentaire' => 'Placeholder'],
+    ['pseudo' => 'Anthony Kafé', 'commentaire' => 'Placeholder'],
+    ['pseudo' => 'Antoine Lecodex', 'commentaire' => 'Placeholder'],
+    ['pseudo' => 'Thomas Reservia', 'commentaire' => 'Placeholder'],
     ['pseudo' => 'Etane Hol', 'commentaire' => 'c nul ton sit'],
-    ['pseudo' => 'Lucas Pascompris', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn'],
-    ['pseudo' => 'Lou Bliée', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn'],
-    ['pseudo' => 'Lou Bliée', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn'],
-    ['pseudo' => 'Anna Tablo', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn'],
-    ['pseudo' => 'Agathe Theblues', 'commentaire' => 'jeznfjznefjznfknzjzenfzknfjznfklzn']
+    ['pseudo' => 'Lucas Pascompris', 'commentaire' => 'Placeholder'],
+    ['pseudo' => 'Lou Bliée', 'commentaire' => 'Placeholder'],
+    ['pseudo' => 'Lou Bliée', 'commentaire' => 'Placeholder'],
+    ['pseudo' => 'Anna Tablo', 'commentaire' => 'Placeholder'],
+    ['pseudo' => 'Agathe Theblues', 'commentaire' => 'Placeholder']
     //fin de filer
 ]
 ?>

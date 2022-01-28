@@ -2,26 +2,21 @@
 
    {% block css %}
    <link rel="stylesheet" href="styleP6.css">
+      <link rel="stylesheet" href="stylebiblio.css">
+
    {% endblock %}
 {% block main %}
 
     <main role = 'main'>
-    <aside role ='aside'>
-        <p>Fun Fact: {{cat2.asidecat2}}</p>
-    </aside>
     <section role ='section principale'>
-        <article role ='article1'>
-            <p class="presentation"{{cat2.presentation}}> </p>
-            <p>  {{cat2.pave}} </p>
-        </article>
-        <article role ='article2'>
-            <h3> {{cat2.titretab}} </h3>
-            <table role = 'classification de personnalités'>
+        <article role ='article principale'>
+            <h3> {{tableau.titretab}} </h3>
+            <table class ="bb"  role = 'bibliographie'>
                 {% for element in tableau %}
                     <tr>
-                        <th> {{element.nom}} </th>
-                        <th> {{element.travailpertinent}} </th>
-                        <th> {{element.date}} </th>
+                        <td> {{element.nomRef}} </td>
+                        <td> {{element.travailpertinent}} </td>
+                        <td> {{element.lien}}<a href={{elment.hrefsm}}> {{elment.hrefsm}} </td>
                     </tr>
                  {% endfor %}
             </table>
