@@ -110,43 +110,48 @@ header h1 {
     padding: 15px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    background-color: whitesmoke;
+    flex-direction: row;
+    background-color: #ffe0e06b;
     border-radius: 25px;
     text-align: justify;
 
 }
-
-
-aside {
-    padding: 5px;
-    margin: 20px;
-    float: left;
-    border-radius: 25px;
-
-}
-
-h3 p {
-    flex: 500px;
-}
-
-aside {
-    padding: 5px;
-    background-color: hotpink;
-    background-color: transparent 70%;
-    width: 100px;
-    box-sizing: border-box;
-}
-
-aside>p {
-    text-align: center;
-    font-size: 18px;
-    text-align: justify;
-    color: black;
-    font-style: italic;
-}
-
 /*footer*/
+
+.Plan_Du_Site{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffe0e06b;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 25px;
+    align-items: center;
+
+}
+
+.footer table{
+    
+    border-collapse: collapse;
+    border-style: groove;
+    padding: 5px;
+    margin: auto;
+}
+.footer tr{
+
+
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+.footer td{
+
+    border-collapse: collapse;
+    margin: auto;
+    padding: 5px;
+    
+}
+
 
 .credit {
     color: rgb(59, 59, 59);

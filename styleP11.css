@@ -92,7 +92,7 @@ article {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: whitesmoke;
+    background-color: #ffe0e06b;
     border-radius: 25px;
     text-align: justify;
 
@@ -114,6 +114,12 @@ p{
 }
 
 /*page1*/
+
+.tff{
+    padding:5px;
+    margin: auto;
+     
+}
 
 aside {
     padding: 5px;

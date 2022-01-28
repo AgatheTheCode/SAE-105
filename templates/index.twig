@@ -3,6 +3,8 @@
 
    {% block css %}
    <link rel="stylesheet" href="styleindex.css">
+      <link rel="stylesheet" href="stylenav.css">
+
    {% endblock %}
 {% block main %}
        <main role ='main'>
@@ -20,20 +22,20 @@
                 </article>
             </section>
 
+
             <section class="carrouselMain">
-                <div>
-                    <h3> La collection de drapeau</h3>
-   
-   <ul class="items">
-   {% for element in carrousel %}
-        <li class="sousItem">
-            <div>
-                <img src={{element.flag}} alt={{element.alt}}>
-                <div class="infosup">
-                    <p> {{element.infol}} </p>
+                 <h3> La collection de drapeau</h3>
+                <div> 
+                    <ul class="items">
+                    {% for element in carrousel %}
+                      <li class="sousItem">
+                        <div>
+                            <img src={{element.flag}} alt={{element.alt}}>
+                        <div class="infosup">
+                            <p> {{element.infol}} </p>
+                        </div>
                 </div>
-            </div>
-        </li>
+                     </li>
         {% endfor %}
     </ul>
  </div> 
@@ -42,3 +44,4 @@
         </main>
 
 {% endblock main %}
+

@@ -2,12 +2,13 @@
 
    {% block css %}
    <link rel="stylesheet" href="styleP6.css">
+   <link rel="stylesheet" href="base.css">
    {% endblock %}
 
 {% block main %}
 <main role ='main'>
         <aside role = 'aside Fun Fact'>
-            <p>Fun Fact: {{aside.fact}}</p>
+            <h4 class ="tff">Fun Fact:</h4> <p>{{cat3.asidecat3}}</p>
         </aside>
         <section role ='Section 1'>
             {% for element in cat3 %}

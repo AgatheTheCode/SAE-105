@@ -91,7 +91,7 @@ article {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: whitesmoke;
+    background-color: #ffe0e06b;
     border-radius: 25px;
     text-align: justify;
 
@@ -103,11 +103,17 @@ img article{
 
 /*page1*/
 
+.tff{
+    padding:15px;
+    margin: auto;
+     
+}
+
 
 aside {
     padding: 5px;
     background-color: hotpink;
-    width: 200px;
+    width: 250px;
     box-sizing: border-box;
     padding: 5px;
     margin: 20px;
@@ -126,37 +132,51 @@ p{
     margin: auto;
     padding: 15px;
 }
+
+.img2{
+    margin: auto;
+    width: 500px;
+    height: auto;
+    border-radius: 25px;
+}
+figcaption{
+    padding: 5px;
+    margin: auto;
+    font-style: italic;
+}
 h3{
     margin: auto;
     padding: 15px;
 }
 
   
-table
+.cat2tab table
 {
     margin: auto;
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
+    width: 500px;
+    align-items: center;
+    text-align: center;
 }
-th
+.cat2tab th
 {
     border: 1px solid black;
+    border-collapse: collapse;
     padding: 10px;
     text-align: left;
     text-align: justify;
 }
-td
+.nomtab{
+    font-weight: bold;
+}
+.cat2tab tr
 {
     border: 1px solid black;
+    border-collapse: collapse;
     padding: 10px;
+    width: 166px; 
+    
 
-}
-
-
-/*footer*/
-
-footer .credit {
-    color: rgb(59, 59, 59);
-    font-size: 6px;
 }
