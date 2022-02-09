@@ -51,26 +51,24 @@
 {% block footer %}
 
 	<footer role = "footer">
-
 		
-		<div class="Plan_du_site">
-		
-			<table class ="footer">
-                {% for element in nav %}
-                    <tr>
-    		            <th><a href={{element.href2}}>{{element.nom2}}</a> </th>
-						{% for item in element.sous_menu %}
-						<td><a href={{item.hrefsm}}> {{item.nomsm}} </td>
+			<div>
+				<a href={{index.href}}>{{index.nom}}</a>
+				{% for element in nav %}
+				<a href={{element.href2}}>{{element.nom2}}</a>
+					<div>
+							{% for item in element.sous_menu %}
+							<div class ="fsm">
+						<a href={{item.hrefsm}}>{{item.nomsm}}</a>
 						{% endfor %}
-                    </tr>
-                 {% endfor %}
-            </table>
-					<p class="credits"> @Joseph Dufour ~ 2022 <a href= "https://github.com/Joe05-TQJ/SAE-105" >Github</a> </p>
+							
+					</div>
+				
+				{% endfor %}
+			</div>
 
-		</div>
 
 	</footer>
 	{% endblock footer %}
 </body>
-
 </php>

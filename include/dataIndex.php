@@ -119,6 +119,8 @@ $nav_en =[
         ['hrefsm' => 'page_EN12.php', 'nomsm' => 'Rights in Europe'],
         ['hrefsm' => 'page_EN13.php', 'nomsm' => 'Rights in the world'],
         ['hrefsm' => 'page_EN14.php', 'nomsm' => 'Associations'],
+        ['hrefsm' => 'page_EN15.php', 'nomsm' => 'Noob'],
+
 
     ]],
     ['href2' => 'biblio_en.php', 'nom2' => 'Sources'], //ne fonctionne pas mais est bien lié ???
