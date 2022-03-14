@@ -1,3 +1,7 @@
+ !! Probleme sur le footer des pages à refaire !! 
+
+
+
 Sujet traité :
     - LGBT  - Historique
 
