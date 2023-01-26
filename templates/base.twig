@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <!DOCTYPE php>
 <php lang="fr">
 <!--
@@ -71,4 +72,79 @@
 	</footer>
 	{% endblock footer %}
 </body>
+=======
+<!DOCTYPE php>
+<php lang="fr">
+<!--
+	Ce fichier php sert de base à tous les modèles en héritant.
+	Il contient les éléments qui seront présents sur toutes les pages du site.
+	En particulier les entêtes php, les header et footer et éventuellement le menu principal
+-->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ titre }}</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/stylenav.css">
+	<style> @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); </style>
+	{% block css %}
+	{% endblock css %}
+</head>
+
+<body>
+	<header role ="banner">
+		<div class="titre">
+			<div>
+				<img class="logo" src="logos/LOGOsmallest.png" alt="logo cercle arc en ciel">
+				<h1> LGBT - Histoire et Luttes </h1>
+
+			</div>
+
+		</div>
+		<nav role ="naviagation">
+			<ul>
+				<li><a href={{index.href}}>{{index.nom}}</a></li>
+				{% for element in nav %}
+				<li class="menu-deroulant_cat1">
+					<a href={{element.href2}}>{{element.nom2}}</a>
+					<ul class="sous">
+							{% for item in element.sous_menu %}
+						<li><a href={{item.hrefsm}}>{{item.nomsm}}</a></li>
+						{% endfor %}
+							
+					</ul>
+				</li>
+				{% endfor %}
+			</ul>
+		</nav>
+
+	</header>
+		{% block main %}
+		{% endblock main %}
+
+{% block footer %}
+
+	<footer role = "footer">
+		
+			<div>
+				<a href={{index.href}}>{{index.nom}}</a>
+				{% for element in nav %}
+				<a href={{element.href2}}>{{element.nom2}}</a>
+					<div>
+							{% for item in element.sous_menu %}
+							<div class ="fsm">
+						<a href={{item.hrefsm}}>{{item.nomsm}}</a>
+						{% endfor %}
+							
+					</div>
+				
+				{% endfor %}
+			</div>
+
+
+	</footer>
+	{% endblock footer %}
+</body>
+>>>>>>> Stashed changes
 </php>
